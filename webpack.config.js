@@ -24,7 +24,7 @@ class RunAfterCompile {
 
 let cssConfig = {
   test: /\.css$/i,
-  use: ['css-loader?url=false', {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
+  use: ['css-loader', {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
 }
 
 let config = {

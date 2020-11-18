@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const fse = require('fs-extra')
 
 const postCSSPlugins = [
-    require('postCSS-import'),
+    require('postcss-import'),
     require('postcss-mixins'),
     require('postcss-simple-vars'),
     require('postcss-nested'),
